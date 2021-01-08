@@ -19,3 +19,4 @@ At first, execute `/start` command. Then, you can send urls ot this bot and it w
 
 ### Example:
 
+![Example QR Code](example_qr.jpg)
