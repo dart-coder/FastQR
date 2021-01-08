@@ -28,7 +28,7 @@ def send_qr(update, context):
         context.bot.send_photo(chat_id=CHAT_ID, photo=open("qr_code.png", "rb"))
         remove("qr_code.png")
     except:
-        context.bot.send_message(chat_id=CHAT_ID, text="Некорректный URL!")
+        context.bot.send_message(chat_id=CHAT_ID, text="Invalid URL!")
     
 
 if __name__ == "__main__":
